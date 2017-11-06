@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Sign Up</title>
+</head>
+<body>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Placement Portal</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="driveregn.html">Drive Registration</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="form.html">Sign Up</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>  
+
+	<form class="form-horizontal" action="login.php" method="POST">
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="name">Name:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="name" id="name" placeholder="Enter Full Name">
+			</div>
+		</div>
+			<div class="form-group">
+			<label class="control-label col-sm-2" for="regno">Registration No:</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" name="regno" id="regno" placeholder="Enter Registration No">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="fname">Father's Name</label>
+			<div class="col-sm-10"> 
+				<input type="text" class="form-control" name="fname"id="fname" placeholder="Enter Father's Name">
+			</div>
+		</div><div class="form-group">
+			<label class="control-label col-sm-2" for="mname">Nother's Name</label>
+			<div class="col-sm-10"> 
+				<input type="text" class="form-control" name="mname" id="manme" placeholder="Enter Mother's Name">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="address">Address</label>
+			<div class="col-sm-10"> 
+				<input type="text" class="form-control" name="address" id="address" placeholder="Enter Address">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="city">City</label>
+			<div class="col-sm-10"> 
+				<input type="text" class="form-control" name="city" id="city" placeholder="Enter City">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="email">Email:</label>
+			<div class="col-sm-10">
+				<input type="email" class="form-control" name="email" id="email" placeholder="Enter email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="control-label col-sm-2" for="pwd">Password:</label>
+			<div class="col-sm-10"> 
+				<input type="password" class="form-control" name="password" id="pwd" placeholder="Enter password">
+			</div>
+		</div>
+		
+		<div class="form-group"> 
+			<div class="col-sm-offset-2 col-sm-10">
+				<div class="checkbox">
+					<label><input type="checkbox"> Remember me</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group"> 
+			<div class="col-sm-offset-2 col-sm-10">
+				<button type="submit" class="btn btn-default">Submit</button>
+			</div>
+		</div>
+	</form>
+
+
+
+	<link rel="javascript" rel="js/jquery.js">
+	<link rel="javascript" rel="js/jquery.min.js">
+</body>
+</html>
